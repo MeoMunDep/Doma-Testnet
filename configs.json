@@ -1,1 +1,32 @@
+{
+  "proxyMode": "static",
+  "skipInvalidProxy": false,
+  "delayEachAccount": [1, 1],
+  "timeToRestartAllAccounts": 86400,
+  "howManyAccountsRunInOneTime": 1,
 
+  "faucet": { "enable": true },
+
+  "bridge": {
+    "sepoliaToDoma": {
+      "enable": true,
+      "valueAmount": [0.0001, 0.0002],
+      "txCount": [1, 3]
+    },
+    "domaToSepolia": {
+      "enable": true,
+      "valueAmount": [0.0001, 0.0002],
+      "txCount": [1, 3]
+    }
+  },
+
+  "buyTokens": {
+    "enable": true,
+    "amountUSDT": [100, 200]
+  },
+
+  "sellTokens": {
+    "enable": true,
+    "amountToken": [0.01, 0.02]
+  }
+}
