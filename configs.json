@@ -14,7 +14,7 @@
       "txCount": [1, 3]
     },
     "domaToSepolia": {
-      "enable": true,
+      "enable": false,
       "valueAmount": [0.0001, 0.0002],
       "txCount": [1, 3]
     }
