@@ -7,7 +7,7 @@ NC='\033[0m'
 
 chmod +x "$0"
 
-echo -ne "\033]0;Doma-Mizu-Testnet Bot by @MeoMunDep\007"
+echo -ne "\033]0;Mizu-Testnet (DOMA) Bot by @MeoMunDep\007"
 
 print_yellow "Checking for updates..."
 git pull origin main >/dev/null 2>&1
