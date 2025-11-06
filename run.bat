@@ -1,5 +1,5 @@
 @echo off
-title Mizu-Testnet Bot by @MeoMunDep
+title Mizu-Testnet (DOMA) Bot by @MeoMunDep
 color 0A
 
 cd %~dp0
